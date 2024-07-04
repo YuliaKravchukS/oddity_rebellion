@@ -4,166 +4,146 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oddity test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Rubik&display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
+
   <body>
     <div class="page-container">
-      <header class="container">
-        <nav class="nav">
-          <a
-            target="_blank"
-            rel="no-referrer nooper"
-            href="https://mail.google.com/mail/&amp;ogbl"
-          >
-            Gmail
-          </a>
-          <a
-            target="_blank"
-            rel="no-referrer nooper"
-            href="https://www.google.com/imghp?hl=ru&ogbl"
-          >
-            Зображення
-          </a>
-          <a
-            target="_blank"
-            rel="no-referrer nooper"
-            href="https://about.google/products/"
-          >
-            <img
-              src="https://ssl.gstatic.com/gb/images/bar/al-icon.png"
-              alt=""
-            />
-          </a>
-          <a
-            class="singup-link"
-            target="_blank"
-            rel="no-referrer nooper"
-            href="https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&hl=ru&passive=true&ifkv=ATuJsjxTvs4XJJ4qE12VCoKzbqU8R_IRHGYMuGe5hAQZb-mi1Zn1lxm2wcpsCvMTQvmHQL_8lYPw1Q&theme=glif&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
-          >
-            Увійти
-          </a>
-        </nav>
+      <header class="header container">
+        <a href="/" class="logo">R</a>
+        <h2 class="header-tittle">rebellion</h2>
+        <div class="header-tittle-after"></div>
       </header>
       <main class="main container">
-        <div class="wrap-logo">
-          <img
-            class="logo"
-            alt="Google"
-            height="92"
-            src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-            width="272"
-          />
-        </div>
-        <div class="wrap-search">
-          <div class="wrap-search-input">
-            <a class="icon-loupe">
-              <svg class="btn-menu-icon" width="16" height="16">
-                <use href="./images/symbol-defs.svg#icon-loupe"></use>
-              </svg>
-            </a>
-            <input type="search" id="site-search" name="site-search" />
-            <div class="wrap-search-input-icon">
-              <a class="icon-lens">
-                <svg class="btn-menu-icon" width="24" height="24">
-                  <use href="./images/symbol-defs.svg#icon-keyboard"></use>
-                </svg>
-              </a>
-              <a class="icon-voice">
-                <svg class="btn-menu-icon" width="24" height="24">
-                  <use href="./images/symbol-defs.svg#icon-microphone"></use>
-                </svg>
-              </a>
-              <a class="icon-lens">
-                <svg class="btn-menu-icon" width="24" height="24">
-                  <use href="./images/symbol-defs.svg#icon-lens"></use>
-                </svg>
-              </a>
+        <section class="hero container">
+          <h1 class="hero-tittle">
+            the era of <br />
+            <span class="tittle-word">brands</span> in motion has arrived
+          </h1>
+        </section>
+        <section class="slogan container">
+          <div class="slogan-wrap-btn">
+            <button class="slogan-btn-brands is-active">brands</button>
+            <button class="slogan-btn-agency">agency</button>
+          </div>
+          <div class="slogan-arrow"></div>
+          <p class="slogan-text">
+            Establishing agile and responsible brands for lasting success.
+          </p>
+          <p class="slogan-text">
+            Energizing them constantly to face today`s challenges.
+          </p>
+        </section>
+        <section class="work container">
+          <h2 class="work-title">Work</h2>
+          <div class="wrap-img">
+            <img
+              class="work-img"
+              src="./images/ODD_BIG.D.png"
+              alt="Your photo can be here"
+              width="275px"
+              height="375px"
+            />
+          </div>
+        </section>
+        <section class="contacts">
+          <div class="contacts-logo">R</div>
+
+          <address class="contacts-address">
+            <div>
+              <p>send us a brief</p>
+              <a class="contacts-mail" href="mailto:breief@rebellionn.fr"
+                >breief@rebellionn.fr</a
+              >
             </div>
-          </div>
+            <div class="contacts-social-media">
+              <div>
+                <a class="contacts-link" href="https://www.instagram.com/"
+                  >instagram</a
+                >
+                <a class="contacts-link" href="https://www.linkedin.com/"
+                  >linkedin</a
+                >
+              </div>
 
-          <div class="wrap-search-btn">
-            <button class="search-btn" type="submit">Пошук Google</button>
-            <button class="search-btn btn-lucky" type="submit">
-              Мені пощастить
-            </button>
-          </div>
+              <div class="wrap-contacts-text">
+                <p class="contacts-text">
+                  paris <br />
+                  marseille <br />
+                  bordeaux
+                </p>
 
-          <div class="language">
-            <p>Мова Google: <span>English</span></p>
-          </div>
-        </div>
+                <p class="contacts-text">
+                  28 rue boissy d`anglas, 8e <br />
+                  10 rue neuve sainte catherine, 7eme <br />
+                  darwin, 87 quai des queyries
+                </p>
+              </div>
+            </div>
+          </address>
+        </section>
       </main>
       <footer class="footer">
-        <div class="footer-country">
-          <p>Україна</p>
+        <div class="footer-company">
+          <p>rebellion</p>
         </div>
         <div class="footer-wrap">
           <div class="footer-wrap-link">
+            <p>@2023 legal & cookies</p>
             <a
               target="_blank"
               rel="no-referrer nooper"
               class="footer-link"
-              href="https://about.google/?utm_source=google-UA&amp;utm_medium=referral&amp;utm_campaign=hp-footer&amp;fg=1"
+              href="/"
             >
-              Про Google</a
+              #trends</a
             >
             <a
               target="_blank"
               rel="no-referrer nooper"
               class="footer-link"
-              href="https://www.google.com.ua/intl/uk_ua/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1"
+              href="/"
             >
-              Реклама
-            </a>
+              #brands strategy</a
+            >
             <a
               target="_blank"
               rel="no-referrer nooper"
               class="footer-link"
-              href="https://www.google.com.ua/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1"
+              href="/"
             >
-              Для бізнесу
-            </a>
+              #branding</a
+            >
             <a
               target="_blank"
               rel="no-referrer nooper"
               class="footer-link"
-              href="https://google.com/search/howsearchworks/?fg=1"
+              href="/"
             >
-              Як працює Пошук
-            </a>
-          </div>
-          <div class="footer-wrap-link">
+              #advertising</a
+            >
             <a
               target="_blank"
               rel="no-referrer nooper"
               class="footer-link"
-              href="https://policies.google.com/privacy?hl=uk&amp;fg=1"
+              href="/"
             >
-              Конфіденційність
-            </a>
+              #brand content</a
+            >
             <a
               target="_blank"
               rel="no-referrer nooper"
               class="footer-link"
-              href="https://policies.google.com/terms?hl=uk&amp;fg=1"
+              href="/"
             >
-              Умови
-            </a>
-            <a
-              target="_blank"
-              rel="no-referrer nooper"
-              class="footer-link"
-              href="https://www.google.com.ua/preferences?hl=uk"
+              #activations</a
             >
-              Налаштування
-            </a>
           </div>
         </div>
       </footer>
